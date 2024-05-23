@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddtoContact">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/contact"></ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:hint="adınızı giriniz"
+        android:textColorHint="@color/colortext"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:hint="soyadınızı giriniz"
+        android:textColorHint="@color/colortext"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:hint="telefon numaranızı giriniz"
+        android:textColorHint="@color/colortext"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/phone"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:id="@+id/addtocontact"
+        app:backgroundTint="@color/colorAccent"/>
+
+</LinearLayout>
